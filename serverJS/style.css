@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* LOGIN */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url("https://cdn.dribbble.com/users/1338391/screenshots/15318231/media/4c725fe4efbaa9d498f39f13600e396a.jpg");
+    background-color: aqua;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+
+
+.borde {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 360px;
+}
+
+.borde h1{
+    text-align: center;
+}
+
+.card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.borde .label-float input {
+  width: 100%;
+  padding: 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+  outline: 0;
+  transition: 0.1s linear;
+  min-width: 180px;
+  font-size: 16px;
+}
+
+.label-float {
+  position: relative;
+  padding-top: 15px;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  display: flex;
+  align-items: center;
+}
+
+.label-float label {
+  position: absolute;
+  top: 40%;
+  transition: 0.3s ease-out;
+
+}
+
+.borde .label-float input:focus + label,
+.borde .label-float input:valid + label {
+  top: 0px;
+  font-size: 10pt;
+}
+
+
+
+.justify {
+  display: flex;
+  justify-content: center;
+}
+
+.label-float img {
+  position: absolute;
+  width: 20px;
+  right: 0;
+  cursor: pointer;
+}
+.label-float img:hover {
+  position: absolute;
+  width: 20px;
+  right: 0;
+  cursor: pointer;
+}
+
+.justify button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.justify button:hover{
+    background-color: rgba(255, 228, 196, 0.5);
+}
+  
+/* ALTA */
+
+
+
+
+
+
+/*GESTION */
+h1 {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: gray;
+  color: #fff;
+}

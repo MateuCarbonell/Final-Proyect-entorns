@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="getTable()">
+    <h1>Gestio</h1>
+
+    <!-- Botones -->
+    <button class="button" onclick="enviarAlta()">Alta</button>
+    <button class="button" onclick="logOut()">Log Out</button>
+    <button class="button" onclick="getTable()">Mostrar Datos Xips</button>
+
+    <!-- Tabla de altes -->
+    <h2>Altes relacionades amb el doctor</h2>
+    <table id="altesTable">
+        <tr>
+            <th>ID</th>
+            <th>Patient</th>
+            <th>Medicine</th>
+            <th>Data de Finalització</th>
+        </tr>
+    </table>
+    
+</body>
+</html>

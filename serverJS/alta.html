@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Alta</title>
+  <link rel="stylesheet" type="text/css" href="styleAlta.css">
+  <script src="script.js"></script>
+</head>
+<body onload="getPatients(), getMedicines();">
+  <h1>Alta</h1>
+  <div>
+    <label for="xipId">ID Físico del Xip:</label>
+    <input type="text" id="idXip">
+    <br>
+    <label for="patientSelect">Paciente:</label>
+    <select id="patientSelect"></select>
+    <br>
+    <label for="medicineSelect">Medicamento:</label>
+    <select id="medicineSelect"></select>
+    <br>
+    <label for="expiryDate">Fecha Límite:</label>
+    <input type="date" id="expiryDate">
+    <br>
+    <input type="button" value="Enviar" onclick="enviarA()">
+  </div>
+    
+ 
+  <button onclick="goToGestio()">Gestio</button>
+</body>
+</html>
